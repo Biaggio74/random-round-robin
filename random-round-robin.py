@@ -19,7 +19,7 @@ comp(competitors)
 #Number of competitors within one group
 group_size = 6
 #Create a random list of competitors
-def rounding(competitors):
+def rounding(competitors):git 
     length = len(competitors)
     rand_list = []
     for i in range(0, length):
