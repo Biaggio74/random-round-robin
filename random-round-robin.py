@@ -2,9 +2,8 @@ from random import randint
 from datetime import datetime, date, time
 
 #Competitors
-competitors = ["Gro Lovli", "Hilde L. Thorkildsen", "Geir Gjersdal", "Thomas Ohrbom", "Stefan Dokken", "Balazs Kisfali", "Bezawit Jemberu Telila", "Leif Monnich Strom", "Martin Larssen", "Arnstein", "Lars Stromme", "Leif Bottolfs", "Knut Fredrik Asker", "Thomas Karlsen", "Martin Larssen", "Nina V Five", "Stein Sundbye", "Odd Bjornsen", "Terje Kulseng", "petter firing", "Herleik Wahl", "Steinar Tveito", "Carl Erik Auke Borgen", "Geir Birkenes"]
- 
-#["A", "B", "C", "D", "E", "F", "G", "H"]
+competitors = ["Player1", "Player2", "Player3", "Player4", "Player5", "Player6", "Player7", "Player8"]
+
 length = len(competitors)
 #print ", ".join(competitors)
 print "The number of the competitors: " + str(length)
