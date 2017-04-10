@@ -16,9 +16,9 @@ def comp(comp):
 comp(competitors)    
 
 #Number of competitors within one group
-group_size = 6
+group_size = 4
 #Create a random list of competitors
-def rounding(competitors):git 
+def rounding(competitors): 
     length = len(competitors)
     rand_list = []
     for i in range(0, length):
@@ -44,7 +44,7 @@ def chunker(seq, size):
 
 def grouping():
     i=0
-    for group in chunker(randomlist, 6):
+    for group in chunker(randomlist, group_size):
         print " "
         print "Group: " + str(i+1)
         i += 1
